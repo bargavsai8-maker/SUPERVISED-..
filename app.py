@@ -3,7 +3,12 @@ import joblib
 
 st.set_page_config(page_title="Cancer Classification", page_icon="🔬", layout="wide")
 st.title("🔬 Breast Cancer Classification")
-st.write("Educational machine-learning project")
+st.subheader("A Supervised Machine Learning Project")
+st.write(
+    "This application demonstrates how a trained Random Forest "
+    "model classifies breast cancer dataset samples."
+)
+st.info("For educational purposes only — not for medical diagnosis.")
 
 try:
     model = joblib.load("breast_cancer_model (3).pkl")
