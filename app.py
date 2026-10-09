@@ -82,3 +82,10 @@ st.caption(
     "Educational demonstration only. Not intended for medical diagnosis."
 )
 
+with st.expander("🤖 Model Information"):
+    st.write("**Model:** Random Forest Classifier")
+    st.write("**Number of input features:** 30")
+    st.write("**Preprocessing:** StandardScaler")
+    st.write("**Evaluation:** Train-test split and classification report")
+    st.write("**Purpose:** Educational machine-learning demonstration")
+
