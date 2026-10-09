@@ -34,8 +34,14 @@ try:
         "Worst Symmetry", "Worst Fractal Dimension"
     ]
 
-    st.header("Enter Tumor Features")
-    values = []
+    
+st.header("Enter Tumor Features")
+
+if st.button("Reset Inputs"):
+    st.rerun()
+
+values = []
+
 
     for name in feature_names:
         values.append(
