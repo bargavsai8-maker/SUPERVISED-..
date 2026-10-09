@@ -71,3 +71,14 @@ values = []
 
 except Exception as e:
     st.error(f"Error: {e}")
+
+st.divider()
+st.subheader("📌 About This Project")
+st.write("**Algorithm:** Random Forest Classifier")
+st.write("**Task:** Supervised Machine Learning")
+st.write("**Dataset:** Breast Cancer Wisconsin Dataset")
+st.write("**Libraries:** Python, Pandas, Scikit-learn, Streamlit")
+st.caption(
+    "Educational demonstration only. Not intended for medical diagnosis."
+)
+
