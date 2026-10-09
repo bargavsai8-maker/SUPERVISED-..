@@ -89,3 +89,11 @@ with st.expander("🤖 Model Information"):
     st.write("**Evaluation:** Train-test split and classification report")
     st.write("**Purpose:** Educational machine-learning demonstration")
 
+with st.expander("📊 Model Performance"):
+    st.write("The model was evaluated using a train-test split.")
+    st.write("Evaluation metrics include accuracy, precision, recall, and F1-score.")
+    st.info(
+        "Add your actual evaluation results here. "
+        "Do not report unverified accuracy."
+    )
+
