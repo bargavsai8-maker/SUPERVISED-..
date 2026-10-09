@@ -1,7 +1,8 @@
 import streamlit as st
 import joblib
 
-st.title("Breast Cancer Classification")
+st.set_page_config(page_title="Cancer Classification", page_icon="🔬", layout="wide")
+st.title("🔬 Breast Cancer Classification")
 st.write("Educational machine-learning project")
 
 try:
