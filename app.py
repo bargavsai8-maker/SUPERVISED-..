@@ -45,10 +45,12 @@ try:
         else:
             prediction = model.predict([values])[0]
 
-            if str(prediction).upper() in ["M", "1", "MALIGNANT"]:
+            
+            if prediction == 0:
                 st.error("Model output: Malignant")
             else:
                 st.success("Model output: Benign")
+
 
             st.caption(
                 "Educational output only. "
