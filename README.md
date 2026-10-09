@@ -1,33 +1,36 @@
-Breast Cancer Classification Using Supervised Machine Learning
+🔬 Breast Cancer Classification Using Machine Learning
 
 Project Overview
 
-This project uses supervised machine learning to classify breast tumors as benign or malignant using the Breast Cancer Wisconsin dataset.
+This project uses supervised machine learning to classify breast cancer dataset samples as Malignant or Benign.
 
 Technologies Used
 
 - Python
-- Pandas
 - Scikit-learn
-- Random Forest Classifier
-- StandardScaler
+- Pandas
+- Streamlit
 - Joblib
 
-Methodology
+Machine Learning Workflow
 
-1. Loaded the dataset.
-2. Separated features and target labels.
-3. Split the data into training and testing sets (80:20).
-4. Built a machine learning pipeline.
-5. Evaluated the model using precision, recall, F1-score, and accuracy.
-6. Saved the trained model using Joblib.
+1. Load the Breast Cancer Wisconsin dataset.
+2. Split data into training and testing sets.
+3. Scale features using StandardScaler.
+4. Train a Random Forest Classifier.
+5. Evaluate the model using classification metrics.
+6. Deploy an interactive web app using Streamlit.
 
-Results
+Model
 
-- Test accuracy: 96%
-- Malignant F1-score: 0.94
-- Benign F1-score: 0.97
+- Algorithm: Random Forest Classifier
+- Input features: 30
+- Task: Binary classification
+
+Live Demo
+
+"Open the Streamlit App" (https://supervised-machine-learning-skv5wjbuectrgm8ty6mrpf.streamlit.app/)
 
 Disclaimer
 
-This project is for educational purposes only and is not intended for medical diagnosis.
+This project is for educational purposes only and must not be used for medical diagnosis.
